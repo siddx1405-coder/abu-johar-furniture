@@ -138,7 +138,7 @@ function App() {
       </header>
 
       <section className="hero" id="top">
-        <div className="hero-image" role="img" aria-label="غرفة معيشة أنيقة" />
+        <div className="hero-image" role="img" aria-label="ستائر زخرفية أنيقة" />
         <div className="hero-copy">
           <div className="cr-badge">
             <span>سجل تجاري</span>

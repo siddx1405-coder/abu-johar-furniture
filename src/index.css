@@ -159,12 +159,13 @@ nav a:hover::after {
 
 .hero-image {
   position: absolute;
-  inset: 0 44% 0 0;
+  inset: 0;
   background-image:
-    linear-gradient(90deg, rgba(21, 26, 22, 0.04), rgba(21, 26, 22, 0.35)),
-    url("/abu-johar/hero-majlis.jpg");
+    linear-gradient(90deg, rgba(17, 18, 17, 0.55) 0%, rgba(17, 18, 17, 0.2) 38%, rgba(17, 18, 17, 0.52) 100%),
+    url("/abu-johar/curtain-hero.jpg");
   background-position: center;
   background-size: cover;
+  transform: scale(1.02);
 }
 
 .hero-image::after {
@@ -181,7 +182,8 @@ nav a:hover::after {
   min-height: 760px;
   margin-inline: auto;
   padding-top: 172px;
-  padding-left: 61%;
+  padding-left: 0;
+  max-width: 520px;
 }
 
 .cr-badge {
